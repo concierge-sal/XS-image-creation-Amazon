@@ -4,7 +4,7 @@
 
 ## SLOT_BLOCK
 ```
-lifestyle scene in brand mood, warm natural interior light, minimal props (linen, ceramic dish, dried florals), product clearly the hero
+lifestyle scene in brand mood, soft studio light, set in black, white and gray only, minimal props in palette colours, product clearly the hero
 ```
 
 ## Full prompt
@@ -12,7 +12,7 @@ lifestyle scene in brand mood, warm natural interior light, minimal props (linen
 [SUBJECT] {PRODUCT_TYPE}: {PRODUCT_DESCRIPTION}
 [METAL] {METAL_BLOCK}
 [GEMS] {GEM_BLOCK}
-[SLOT] lifestyle scene in brand mood, warm natural interior light, minimal props (linen, ceramic dish, dried florals), product clearly the hero
+[SLOT] lifestyle scene in brand mood, soft studio light, set in black, white and gray only, minimal props in palette colours, product clearly the hero
 [STYLE] {STYLE_BLOCK}
 [FIDELITY] reproduce the reference product exactly; do not redesign
 [OUTPUT] 1:1, 2000x2000 px, photorealistic

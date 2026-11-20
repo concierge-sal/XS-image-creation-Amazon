@@ -16,7 +16,9 @@
 - [ ] Dimensions shown = listing dimensions
 
 ## Same-line consistency (vs COS-JESUSNAMES)
-- [ ] Same palette, fonts, text position, margins
+- [ ] Fonts = website heading serif + Helvetica Light only
+- [ ] Colours = black, white, gray, brand red only (plus true product colours)
+- [ ] Same text position, margins
 - [ ] Same lighting direction & warmth
 - [ ] Same icon style
 - [ ] Slot order and purpose match `sop/slot-structure.md`

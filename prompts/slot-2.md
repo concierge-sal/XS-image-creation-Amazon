@@ -4,7 +4,7 @@
 
 ## SLOT_BLOCK
 ```
-macro close-up at 3/4 angle showing metal finish, stone setting and craftsmanship, soft neutral backdrop, shallow depth of field
+macro close-up at 3/4 angle showing metal finish, stone setting and craftsmanship, white or light gray (#F2F2F2) backdrop, shallow depth of field
 ```
 
 ## Full prompt
@@ -12,7 +12,7 @@ macro close-up at 3/4 angle showing metal finish, stone setting and craftsmanshi
 [SUBJECT] {PRODUCT_TYPE}: {PRODUCT_DESCRIPTION}
 [METAL] {METAL_BLOCK}
 [GEMS] {GEM_BLOCK}
-[SLOT] macro close-up at 3/4 angle showing metal finish, stone setting and craftsmanship, soft neutral backdrop, shallow depth of field
+[SLOT] macro close-up at 3/4 angle showing metal finish, stone setting and craftsmanship, white or light gray (#F2F2F2) backdrop, shallow depth of field
 [STYLE] {STYLE_BLOCK}
 [FIDELITY] reproduce the reference product exactly; do not redesign
 [OUTPUT] 1:1, 2000x2000 px, photorealistic

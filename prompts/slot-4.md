@@ -4,7 +4,7 @@
 
 ## SLOT_BLOCK
 ```
-product on clean neutral background with clear space for dimension lines, optionally beside a scale reference worn on model
+product on clean white or light gray (#F2F2F2) background with clear space for dimension lines, optionally beside a scale reference worn on model
 ```
 
 ## Full prompt
@@ -12,7 +12,7 @@ product on clean neutral background with clear space for dimension lines, option
 [SUBJECT] {PRODUCT_TYPE}: {PRODUCT_DESCRIPTION}
 [METAL] {METAL_BLOCK}
 [GEMS] {GEM_BLOCK}
-[SLOT] product on clean neutral background with clear space for dimension lines, optionally beside a scale reference worn on model
+[SLOT] product on clean white or light gray (#F2F2F2) background with clear space for dimension lines, optionally beside a scale reference worn on model
 [STYLE] {STYLE_BLOCK}
 [FIDELITY] reproduce the reference product exactly; do not redesign
 [OUTPUT] 1:1, 2000x2000 px, photorealistic

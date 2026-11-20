@@ -4,7 +4,7 @@
 
 ## SLOT_BLOCK
 ```
-worn by an adult female model, cropped to {neckline/ear/wrist/hand}, natural skin, neutral top, product in sharp focus as the hero, soft daylight
+worn by an adult female model, cropped to {neckline/ear/wrist/hand}, natural skin, black or white top, product in sharp focus as the hero, soft studio light, solid brand-red background
 ```
 
 ## Full prompt
@@ -12,7 +12,7 @@ worn by an adult female model, cropped to {neckline/ear/wrist/hand}, natural ski
 [SUBJECT] {PRODUCT_TYPE}: {PRODUCT_DESCRIPTION}
 [METAL] {METAL_BLOCK}
 [GEMS] {GEM_BLOCK}
-[SLOT] worn by an adult female model, cropped to {neckline/ear/wrist/hand}, natural skin, neutral top, product in sharp focus as the hero, soft daylight
+[SLOT] worn by an adult female model, cropped to {neckline/ear/wrist/hand}, natural skin, black or white top, product in sharp focus as the hero, soft studio light, solid brand-red background
 [STYLE] {STYLE_BLOCK}
 [FIDELITY] reproduce the reference product exactly; do not redesign
 [OUTPUT] 1:1, 2000x2000 px, photorealistic

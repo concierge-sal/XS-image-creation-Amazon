@@ -4,7 +4,7 @@
 
 ## SLOT_BLOCK
 ```
-gifting moment, hands presenting open box, warm soft light, space for short brand line
+gifting moment, hands presenting open box, soft studio light, space for short brand line
 ```
 
 ## Full prompt
@@ -12,7 +12,7 @@ gifting moment, hands presenting open box, warm soft light, space for short bran
 [SUBJECT] {PRODUCT_TYPE}: {PRODUCT_DESCRIPTION}
 [METAL] {METAL_BLOCK}
 [GEMS] {GEM_BLOCK}
-[SLOT] gifting moment, hands presenting open box, warm soft light, space for short brand line
+[SLOT] gifting moment, hands presenting open box, soft studio light, space for short brand line
 [STYLE] {STYLE_BLOCK}
 [FIDELITY] reproduce the reference product exactly; do not redesign
 [OUTPUT] 1:1, 2000x2000 px, photorealistic

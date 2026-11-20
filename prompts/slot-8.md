@@ -4,7 +4,7 @@
 
 ## SLOT_BLOCK
 ```
-flat-lay of exactly what ships: product plus actual SALLY SKOUFIS packaging, neutral background, top-down
+flat-lay of exactly what ships: product plus actual SALLY SKOUFIS packaging, white or light gray (#F2F2F2) background, top-down
 ```
 
 ## Full prompt
@@ -12,7 +12,7 @@ flat-lay of exactly what ships: product plus actual SALLY SKOUFIS packaging, neu
 [SUBJECT] {PRODUCT_TYPE}: {PRODUCT_DESCRIPTION}
 [METAL] {METAL_BLOCK}
 [GEMS] {GEM_BLOCK}
-[SLOT] flat-lay of exactly what ships: product plus actual SALLY SKOUFIS packaging, neutral background, top-down
+[SLOT] flat-lay of exactly what ships: product plus actual SALLY SKOUFIS packaging, white or light gray (#F2F2F2) background, top-down
 [STYLE] {STYLE_BLOCK}
 [FIDELITY] reproduce the reference product exactly; do not redesign
 [OUTPUT] 1:1, 2000x2000 px, photorealistic
