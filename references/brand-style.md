@@ -20,7 +20,8 @@ These rules are mandatory for every image (Slots 2–9 + EBC). No other fonts or
 | White (backgrounds, reversed text) | White | `#FFFFFF` |
 | Gray (secondary backgrounds, dividers) | Light gray | `#F2F2F2` |
 | Gray (secondary text, icons) | Dark gray | `#3A3A3A` |
-| Red | Red from the model background images | `#______` ← **sample exact HEX from the approved model-background image and enter here** |
+| Text on red | Warm white is NOT allowed — use pure white | `#FFFFFF` |
+| Red (model backgrounds) | Deep oxblood red, sampled from the approved XSavage model images | `#560C0D` (shadows down to `#410608`; lit centre of a gradient may reach `#A0282A`) |
 
 Rules:
 - No other colours in backgrounds, text, icons, shapes or props. No cream, blush, gold-coloured text, gradients of other hues.
@@ -31,10 +32,14 @@ Rules:
 ## Style block (paste into `{STYLE_BLOCK}`)
 `premium minimalist fine-jewellery photography, strict monochrome palette of black, white and gray with brand red only where specified, clean modern luxury aesthetic, soft diffused studio light, high-end editorial e-commerce, consistent with SALLY SKOUFIS brand`
 
-Model-slot add-on: `solid brand-red background (#______), model wearing black or white clothing`
+Model-slot add-on: `deep oxblood brand-red background (#560C0D), soft studio light, subtle gradient, model wearing black or white clothing`
 
 ## Fixed layout elements
 - Text position, margins (≥5% safe area) and sizes identical across all slots — copy from the benchmark set.
 - Icons: thin-line, single colour `#1C1C1C` (or `#FFFFFF` on dark/red).
 - Models: adult, natural minimal makeup, black/white/gray clothing, no other jewellery.
 - Logo (if used): small, black or white only, same corner every slot. Never on Main.
+
+## Approved red benchmark
+`reference-sets/XSAVAGE-BLACK-RHODIUM/01_on-model_red.jpg` and `02_promise_red-plinth.jpg` — match this red exactly.
+Red accent text (small caps labels, numbers) on white/gray backgrounds is allowed in `#560C0D`, as seen in 03–05.
