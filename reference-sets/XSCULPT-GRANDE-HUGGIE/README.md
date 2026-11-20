@@ -27,3 +27,20 @@ Status: **layout reference only — not approved for upload as-is.** Each image 
 | 03_in-hand_features | Slot 4 (scale) — add the real mm dimension lines |
 | 04_features-icons_stone-plinth | Slot 5 (features) |
 | 05_features_dark-green | Slot 5 alternate — rebuild on black `#000000` (closest to the approved palette) |
+
+---
+
+## Batch 2 (files 06–13)
+
+| File | Verdict | Fixes needed |
+|---|---|---|
+| 06_single_warm-stone | Layout ref (Slot 2/6) | Beige/brown stone and wall are off-palette → rebuild on gray `#F2F2F2` / black |
+| 07_size-infographic_stone | **Best Slot 4 layout** | Gold dimension lines → `#1C1C1C`; cream box → white; travertine/beige set → white/gray |
+| 08_MAIN-candidate_pair-white_A | **Main candidate** — corners 253–254, not pure 255 | Set background to exactly #FFFFFF before upload. Fill 90% ✓ |
+| 09_the-details_icons | Layout ref (Slot 5) | Remove "Sustainably Sourced & Developed" (unverified environmental claim), "Hypoallergenic" and "Fine Artisanal Craftsmanship". Beige bar → black or gray |
+| 10_18k-gold-plated_stone | Layout ref (Slot 2) | Text is factual ✓. Cream bar → white; gold rule → black; stone backdrop → gray |
+| 11_on-model_closeup | Strong Slot 3 shot | Brown backdrop → brand red; cream bar → white; check the model's crop stays tasteful |
+| 12_callouts_cream | Layout ref (Slot 5) | Remove "Hypoallergenic" + "Fine Artisanal Craftsmanship"; cream → white; gold dots/lines → black |
+| 13_MAIN-candidate_pair-white_B | **Main candidate** — near-white | Set background to exactly #FFFFFF. Fill 90% ✓. Gold is more saturated than A: pick the one that matches the real product |
+
+**Product accuracy check:** the gold tone differs a lot between images (pale in 07, very orange in 06/10/13, yellow in 09/12). Pick ONE tone that matches the real piece and colour-correct every slot to it.
