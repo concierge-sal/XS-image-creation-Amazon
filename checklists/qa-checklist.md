@@ -5,6 +5,12 @@
 - [ ] Built square from the start (1:1 generation / 2000×2000 Canva canvas). Not cropped down from portrait or landscape
 - [ ] Product not stretched or squashed; text and product inside the 5% safe margin of the square
 
+## Font colours — STRICT
+- [ ] Every piece of text is black #1C1C1C/#000000, white #FFFFFF, gray #3A3A3A or X.S red #560C0D. Nothing else
+- [ ] No gold, tan, cream or brown text, lines, rules or icons
+- [ ] Red used only for small labels and numbers on white/light gray; white on red/black; gray never on dark
+- [ ] Fonts = website heading serif + Helvetica Light only
+
 ## Amazon compliance
 - [ ] ≥1000 px longest side (target 2000×2000), JPEG, sRGB
 - [ ] No Amazon logos/badges, watermarks, borders, URLs, QR codes, handles

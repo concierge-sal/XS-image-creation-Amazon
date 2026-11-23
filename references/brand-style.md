@@ -12,6 +12,20 @@ These rules are mandatory for every image (Slots 2–9 + EBC). No other fonts or
 - In Canva: load the same serif heading font and Helvetica Light into the brand kit and lock them. Never substitute.
 - Max 2 font styles per image (heading + body).
 
+## Font colours — STRICT (all text on all images)
+Text may ONLY be one of these four:
+| Text colour | HEX | Use |
+|---|---|---|
+| Black | `#1C1C1C` (or `#000000`) | Headlines, labels, body on white or light gray |
+| White | `#FFFFFF` | Any text on red, black or a photo |
+| Gray | `#3A3A3A` | Secondary text and captions on white or light gray |
+| X.S Red | `#560C0D` | Small-caps eyebrow labels, numbers, accents on white or light gray. Never for body text, never on a dark background |
+
+- **No other text colour, ever:** no gold or tan text, no cream or warm white, no brown, no pink, no colour taken from the product.
+- Lines, rules, icons and dimension arrows follow the same four colours.
+- Contrast: black, gray or red text only on white / `#F2F2F2`; white text only on red / black / dark photo areas. Gray text never on red or black.
+- In Canva, lock these four as the brand kit's only text colours.
+
 ## Colour palette — ONLY these
 | Role | Colour | HEX |
 |------|--------|-----|
