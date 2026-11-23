@@ -15,6 +15,8 @@ sop/
   workflow.md                  ← step-by-step from SKU → approved set
   tool-selection.md            ← choosing AI vs Canva/manual per slot
 references/
+  xs-collection.md             ← X.S range, Amazon finish names, launch facts, data issues
+  xs-catalogue.csv             ← every X.S SKU: finish, size, weight, material, price, Myer
   metals.md                    ← metal finishes + exact prompt wording
   gems.md                      ← stones/crystals + exact prompt wording
   brand-style.md               ← the "same line" look: light, colour, type, props
