@@ -19,6 +19,11 @@ product only, centred, front-facing hero angle, filling 85-90% of frame, chain a
 [NEGATIVE] Amazon negative block from templates/prompt-template.md
 ```
 
+## Resolution rule (sop/source-resolution.md)
+- Measure first: `python3 tools/check_image.py source <original>`. The product must reach 1700 px on its longest side.
+- ≤1.25×: Lanczos + light unsharp mask. 1.25–3×: Real-ESRGAN x4plus from the ORIGINAL, then fit. >3×: re-shoot.
+- Final: `python3 tools/check_image.py main <MAIN.jpg> <original>` must PASS, and the crops must be inspected at 100%.
+
 ## Slot rules
 - Background exactly #FFFFFF (check with eyedropper)
 - No text, logo, props, model, hand, bust, packaging

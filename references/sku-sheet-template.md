@@ -13,6 +13,7 @@
 - **What's included (ships in box):**
 - **Real product photos (links):**
 - **Personalisation / lettering (exact text):**
+- **Source resolution:** product ___×___ px in original → scale needed ___× → action: resize / AI upscale / re-shoot · AI-rebuilt detail? Y/N
 - **Tool per slot:** Main ___ · S2 ___ · S3 ___ · S4 ___ · S5 ___ · S6 ___ · S7 ___ · S8 ___ · S9 ___ · EBC ___
 - **Approved infographic text (verbatim, factual):**
 - **Excluded for policy:** (anything removed and why)

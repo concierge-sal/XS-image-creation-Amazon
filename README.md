@@ -35,6 +35,6 @@ reference-sets/
 3. Paste the metal block from `references/metals.md` and gem block from `references/gems.md`.
 4. Add the style block from `references/brand-style.md`.
 5. Append the Amazon negative block from `templates/prompt-template.md`.
-6. Generate → run `checklists/qa-checklist.md` → compare side-by-side with `reference-sets/COS-JESUSNAMES/`.
+6. Check source resolution (`sop/source-resolution.md`, `tools/check_image.py`) → generate → run `checklists/qa-checklist.md` → compare side-by-side with `reference-sets/COS-JESUSNAMES/`.
 
 **Rule of priority:** Amazon policy > product accuracy > brand consistency > creativity.

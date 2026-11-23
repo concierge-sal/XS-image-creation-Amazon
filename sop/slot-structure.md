@@ -5,7 +5,7 @@ Benchmark files: `reference-sets/COS-JESUSNAMES/`. Each new SKU gets the same 10
 | # | File name | Purpose | Text allowed | Model allowed |
 |---|-----------|---------|-------------|---------------|
 | Main | `<SKU>_MAIN.jpg` | Product alone on pure white, ≥85% fill | No | No |
-| 2 | `<SKU>_S2.jpg` | Hero angle / close-up detail (metal + stone quality) | Minimal callouts | No |
+| 2 | `<SKU>_S2.jpg` | **Dedicated macro detail** — pavé, facets, marks large and crisp (mandatory for any SKU with stones or fine detail) | Minimal callouts | No |
 | 3 | `<SKU>_S3.jpg` | On-model (neck/ear/wrist/hand as relevant) | Optional short headline | Yes |
 | 4 | `<SKU>_S4.jpg` | Size & scale — dimensions infographic | Yes (measurements) | Optional |
 | 5 | `<SKU>_S5.jpg` | Features/benefits infographic (material, finish, closure) | Yes | No |

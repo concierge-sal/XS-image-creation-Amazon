@@ -8,6 +8,16 @@
 - [ ] No nudity / suggestive content
 - [ ] MAIN: pure #FFFFFF, ≥85% fill, product only, no model/hand/bust/props/text
 
+## Resolution & sharpness (see sop/source-resolution.md)
+- [ ] Ran `tools/check_image.py source` on the ORIGINAL: scale factor recorded on the SKU sheet
+- [ ] ≤1.25×: Lanczos + light unsharp mask · 1.25–3×: Real-ESRGAN x4plus / Super Resolution · >3×: re-shoot (AI upscale only as a labelled interim)
+- [ ] Upscaled from the original file, not a resized/compressed copy; transparent PNGs flattened onto #FFFFFF via the alpha channel
+- [ ] `tools/check_image.py main` PASS: sharpness ≥ 0.8× source
+- [ ] Every image inspected at 100% zoom (qa_crops/): no torn or jagged edges, no halos, no smearing
+- [ ] AI-upscaled detail matches the real piece: pavé count and positions, facets, maker's mark, hinge and clasp identical; no invented texture
+- [ ] Detail slot (Slot 2) actually shows the pavé / facets / mark large and crisp, from a high-res source (never an enlarged crop of the MAIN)
+- [ ] Text added AFTER upscaling; JPEG ≥ 92 quality, 4:4:4
+
 ## Product accuracy
 - [ ] Metal colour & finish match real product
 - [ ] Stone count, cut, colour, setting match
