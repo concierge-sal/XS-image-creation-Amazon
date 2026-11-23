@@ -11,6 +11,12 @@
 - [ ] Red used only for small labels and numbers on white/light gray; white on red/black; gray never on dark
 - [ ] Fonts = website heading serif + Helvetica Light only
 
+## Models — X.S only
+- [ ] Any person in the image is an approved X.S model from `reference-sets/xs-models/` (same face, recognisably model 01)
+- [ ] AI generations used the X.S model photo as the identity reference; no invented or stock faces
+- [ ] Other jewellery in shot is X.S product only; the listed product is clearly the hero
+- [ ] Red background colour-matched to #560C0D
+
 ## Amazon compliance
 - [ ] ≥1000 px longest side (target 2000×2000), JPEG, sRGB
 - [ ] No Amazon logos/badges, watermarks, borders, URLs, QR codes, handles

@@ -51,7 +51,7 @@ Model-slot add-on: `deep oxblood brand-red background (#560C0D), soft studio lig
 ## Fixed layout elements
 - Text position, margins (≥5% safe area) and sizes identical across all slots — copy from the benchmark set.
 - Icons: thin-line, single colour `#1C1C1C` (or `#FFFFFF` on dark/red).
-- Models: adult, natural minimal makeup, black/white/gray clothing, no other jewellery.
+- Models: **X.S models only** (`reference-sets/xs-models/`). No other people, no stock or AI-invented faces. Natural skin, minimal makeup, black/white/gray clothing; any other jewellery must be X.S product.
 - Logo (if used): small, black or white only, same corner every slot. Never on Main.
 
 ## Approved red benchmark
