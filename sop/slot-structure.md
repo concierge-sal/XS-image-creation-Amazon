@@ -1,5 +1,7 @@
 # Slot Structure (mirrors approved COS-JESUSNAMES set)
 
+**Every slot below (Main, 2–9) is exactly 1:1, 2000×2000 px. No exceptions.** A+/EBC modules follow Amazon module sizes.
+
 Benchmark files: `reference-sets/COS-JESUSNAMES/`. Each new SKU gets the same 10 deliverables, same order, same look.
 
 | # | File name | Purpose | Text allowed | Model allowed |

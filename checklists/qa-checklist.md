@@ -1,5 +1,10 @@
 # QA Checklist — every image must pass every line
 
+## Aspect ratio — STRICT 1:1
+- [ ] Image is exactly 2000 × 2000 px (Main and Slots 2–9); `tools/check_image.py` shows "1:1 OK"
+- [ ] Built square from the start (1:1 generation / 2000×2000 Canva canvas). Not cropped down from portrait or landscape
+- [ ] Product not stretched or squashed; text and product inside the 5% safe margin of the square
+
 ## Amazon compliance
 - [ ] ≥1000 px longest side (target 2000×2000), JPEG, sRGB
 - [ ] No Amazon logos/badges, watermarks, borders, URLs, QR codes, handles

@@ -7,7 +7,7 @@
 [SLOT] {SLOT_BLOCK from prompts/<slot>.md}
 [STYLE] {STYLE_BLOCK from references/brand-style.md}
 [FIDELITY] reproduce the reference product exactly — same shape, proportions, stone count, setting, chain, clasp and lettering; do not redesign
-[OUTPUT] square 1:1, 2000x2000 px, photorealistic, sharp focus, sRGB
+[OUTPUT] STRICT square 1:1 aspect ratio, 2000x2000 px (never portrait or landscape), photorealistic, sharp focus, sRGB
 ```
 
 ## Amazon negative block (append to EVERY prompt)

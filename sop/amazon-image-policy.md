@@ -15,6 +15,13 @@ If anything in a prompt, template or generated image conflicts with this file, *
 - No: contact details, URLs, QR codes, social handles.
 - Religious/name pieces (e.g. Jesus names): respectful presentation only; no claims of spiritual/protective effects.
 
+## Aspect ratio — STRICT 1:1 (every listing image)
+- **Main and Slots 2–9 are exactly square: 2000 × 2000 px.** No portrait (3:4, 4:5), no landscape, no "near-square".
+- Build on a square canvas from the start: generate at 1:1, set Canva to 2000×2000. Never crop a portrait or landscape result down to square afterwards (it cuts the product or the text).
+- Square sources: if the source is not square, extend the background (pure #FFFFFF on Main) to square. Never stretch or squash the product.
+- Exception only where Amazon fixes the size: A+/EBC modules use Amazon's module dimensions (see A+ / EBC below).
+- `tools/check_image.py` fails any listing image that is not exactly 2000×2000.
+
 ## MAIN image (strictest)
 - **Pure white background RGB 255,255,255.** No gradient, no off-white, no shadows that read grey patches (soft natural contact shadow only).
 - Product fills **≥ 85%** of the frame.

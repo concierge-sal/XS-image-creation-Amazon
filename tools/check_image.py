@@ -4,7 +4,8 @@
 Usage:
   python3 tools/check_image.py source  <source_file>                 # how much upscale will MAIN need?
   python3 tools/check_image.py main    <final_2000x2000.jpg> [source] # MAIN compliance + sharpness
-  python3 tools/check_image.py sharp   <any_final_image>               # sharpness + 100% crops only
+  python3 tools/check_image.py sharp   <any_final_image>               # 1:1 check + sharpness + 100% crops
+  python3 tools/check_image.py square  <image>                         # strict 1:1 2000x2000 check only
 
 Writes 100%-size crops to ./qa_crops/<name>_crop*.png. Open them and inspect at 100% zoom (never judge
 sharpness on a scaled-down preview). Needs: numpy, Pillow (opencv optional).
@@ -74,8 +75,16 @@ def crops(img, box, name, n=3):
         c.save(p)
         print(f"  100% crop -> {p}")
 
-def cmd_sharp(path, quiet=False):
+def check_square(im, name):
+    w, h = im.size
+    if (w, h) == (TARGET, TARGET):
+        print(f"  1:1 OK ({w}x{h})"); return True
+    print(f"  FAIL 1:1 rule: {w}x{h}, must be exactly {TARGET}x{TARGET} (strict square)"); return False
+
+def cmd_sharp(path, quiet=False, final=True):
     im = Image.open(path)
+    if final:
+        check_square(im, path)
     rgb = flatten(im)
     b = product_bbox(im) or (0, 0, *rgb.size)
     s = edge_sharpness(rgb, b)
@@ -89,8 +98,7 @@ def cmd_main(path, source=None):
     im = Image.open(path)
     rgb = flatten(im)
     ok = True
-    if rgb.size != (TARGET, TARGET):
-        print(f"  FAIL size {rgb.size}, expected {TARGET}x{TARGET}"); ok = False
+    ok &= check_square(rgb, path)
     a = np.array(rgb)
     border = np.concatenate([a[:5].reshape(-1, 3), a[-5:].reshape(-1, 3), a[:, :5].reshape(-1, 3), a[:, -5:].reshape(-1, 3)])
     nonwhite = (border != 255).any(axis=1).mean()
@@ -101,7 +109,7 @@ def cmd_main(path, source=None):
     fill = max(xs.max() - xs.min(), ys.max() - ys.min()) / TARGET
     print(f"  product fill (longest side): {fill*100:.0f}%  ->  {'OK' if fill >= FILL else 'FAIL'}")
     ok &= fill >= FILL
-    s = cmd_sharp(path)
+    s = cmd_sharp(path, final=False)
     if source:
         # Polished metal has few edges, so absolute scores run low even when sharp.
         # When the source is given, judge the final against the source instead.
@@ -123,4 +131,5 @@ if __name__ == "__main__":
     mode, path = sys.argv[1], sys.argv[2]
     {"source": lambda: cmd_source(path),
      "sharp": lambda: cmd_sharp(path),
+     "square": lambda: sys.exit(0 if check_square(Image.open(path), path) else 1),
      "main": lambda: cmd_main(path, sys.argv[3] if len(sys.argv) > 3 else None)}[mode]()

@@ -21,4 +21,4 @@ These are other sellers' Amazon images. They are kept for layout study only. **N
 | O_technical-dimensions_detail-panels | Full technical spec: diameter, gauge, thickness, net weight + 3 detail panels (Slot 4) — clearest size image here | Orange header; verify every number against our listing |
 | P_DO-NOT-USE_collage-colourways | Nothing. Scrapbook collage, a child in the image, unrelated couples, typo, off-palette colours | — |
 
-**Note:** K–P are portrait 3:4. Our slots stay square 1:1 (2000×2000) to match the approved set.
+**Note:** K–P are portrait 3:4, which is NOT allowed for us. Our slots are strictly 1:1 (2000×2000). Borrow the idea and re-lay it out square; never copy the portrait format.
