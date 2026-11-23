@@ -2,15 +2,17 @@
 
 These rules are mandatory for every image (Slots 2–9 + EBC). No other fonts or colours may be used. The Main image is always product-only on pure white (see `sop/amazon-image-policy.md`).
 
-## Fonts — must match sallyskoufis.com (from the live Shopify theme settings)
+## Fonts — STRICT (checked on the live site, 23 Nov 2026)
+The theme settings ("serif" / Helvetica Light) are overridden by the site's own CSS, so those are NOT the brand fonts. Use only:
 | Use | Font | Setting |
-|-----|------|---------|
-| Headlines | **Website heading font: serif** (theme setting `heading_font: serif`) | UPPERCASE, wide letter-spacing **0.18em** (theme: 18), size factor 0.9 |
-| Body / callouts | **Helvetica Light (weight 300)** (theme: `helvetica_n3`) | Sentence case, normal tracking |
-| Labels / buttons-style text | Heading font | UPPERCASE, letter-spacing **0.20em** (theme: 20) |
+|---|---|---|
+| Headlines, labels, small caps | **Jost** (Google Font) | Light 300 (headlines) / Medium 500 (labels); UPPERCASE, letter-spacing 0.12–0.18em |
+| Accent only (one word or short line, italic) | **Bodoni Moda Italic** (Google Font) | Italic 400; never for body text or labels |
+| Body / callout sentences | **Jost** Regular 400 | Sentence case |
 
-- In Canva: load the same serif heading font and Helvetica Light into the brand kit and lock them. Never substitute.
-- Max 2 font styles per image (heading + body).
+- These are the fonts of the new "Design 1 (Pearl)" homepage and site footer, and match the brand panels in `reference-sets/brand-info/`.
+- Product pages still use Wix Madefor Text (older stylesheet). It is NOT used for Amazon images.
+- In Canva, add Jost + Bodoni Moda to the brand kit and lock them. Max 2 font styles per image.
 
 ## Font colours — STRICT (all text on all images)
 Text may ONLY be one of these four:

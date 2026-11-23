@@ -9,7 +9,7 @@
 - [ ] Every piece of text is black #1C1C1C/#000000, white #FFFFFF, gray #3A3A3A or X.S red #560C0D. Nothing else
 - [ ] No gold, tan, cream or brown text, lines, rules or icons
 - [ ] Red used only for small labels and numbers on white/light gray; white on red/black; gray never on dark
-- [ ] Fonts = website heading serif + Helvetica Light only
+- [ ] Fonts = Jost (+ Bodoni Moda Italic accent only), nothing else
 
 ## Models — X.S only
 - [ ] Any person in the image is an approved X.S model from `reference-sets/xs-models/` (same face, recognisably model 01)
@@ -43,7 +43,7 @@
 - [ ] Dimensions shown = listing dimensions
 
 ## Same-line consistency (vs COS-JESUSNAMES)
-- [ ] Fonts = website heading serif + Helvetica Light only
+- [ ] Fonts = Jost (+ Bodoni Moda Italic accent only), nothing else
 - [ ] Colours = black, white, gray, brand red only (plus true product colours)
 - [ ] Same text position, margins
 - [ ] Same lighting direction & warmth

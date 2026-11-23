@@ -28,6 +28,9 @@ prompts/
 checklists/
   qa-checklist.md              ← pass/fail before upload
 reference-sets/
+  xs-capsule-48/                ← the 48 Amazon/TikTok capsule products: Shopify info + image links per product
+  brand-info/                   ← brand panels (mood only; no press logos on Amazon)
+  xs-models/                    ← the ONLY approved models
   COS-JESUSNAMES/              ← approved benchmark set (Main, Slots 2–9, EBC)
 ```
 
