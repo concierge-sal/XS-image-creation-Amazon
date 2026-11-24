@@ -2,17 +2,16 @@
 
 These rules are mandatory for every image (Slots 2–9 + EBC). No other fonts or colours may be used. The Main image is always product-only on pure white (see `sop/amazon-image-policy.md`).
 
-## Fonts — STRICT (checked on the live site, 23 Nov 2026)
-The theme settings ("serif" / Helvetica Light) are overridden by the site's own CSS, so those are NOT the brand fonts. Use only:
+## Fonts — STRICT (from the live site, 23–24 Nov 2026)
 | Use | Font | Setting |
 |---|---|---|
-| Headlines, labels, small caps | **Jost** (Google Font) | Light 300 (headlines) / Medium 500 (labels); UPPERCASE, letter-spacing 0.12–0.18em |
-| Accent only (one word or short line, italic) | **Bodoni Moda Italic** (Google Font) | Italic 400; never for body text or labels |
-| Body / callout sentences | **Jost** Regular 400 | Sentence case |
+| **Headings** (every image headline) | **Bodoni Moda Italic** (Google Font) | Italic 400, high-contrast Didone; **sentence case** like the site ("Worn, not shown"), never all caps; normal letter-spacing |
+| **Everything else**: labels, callouts, measurements, body lines, footer | **Jost** (Google Font) | Labels: Medium 500, UPPERCASE, letter-spacing 0.15–0.2em. Body: Regular 400, sentence case. Big numbers: Light 300 |
 
-- These are the fonts of the new "Design 1 (Pearl)" homepage and site footer, and match the brand panels in `reference-sets/brand-info/`.
-- Product pages still use Wix Madefor Text (older stylesheet). It is NOT used for Amazon images.
-- In Canva, add Jost + Bodoni Moda to the brand kit and lock them. Max 2 font styles per image.
+- Site reference: `reference-sets/brand-info/site-heading-font_Bodoni-Moda-Italic.png` (homepage image headline, CSS `--d1-serif`).
+- Max one heading per image. Never set labels or body text in Bodoni; never set the heading in Jost.
+- The theme settings ("serif" / Helvetica) and Wix Madefor Text (old product pages) are NOT brand fonts for Amazon.
+- In Canva, lock Bodoni Moda Italic + Jost in the brand kit.
 
 ## Font colours — STRICT (all text on all images)
 Text may ONLY be one of these four:
